@@ -1,18 +1,17 @@
 require.config({
   baseUrl: '/',
   paths: {
-    backbone: 'bower_components/backbone/backbone-min',
-    bootstrap: 'bower_components/bootstrap/dist/js/bootstrap.min',
-    colorpicker: 'bower_components/xaguilars-bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min',
-    d3: 'bower_components/d3/d3.v2.min',
-    jquery: 'bower_components/jquery/dist/jquery.min',
-    underscore: 'bower_components/underscore/underscore-min',
+    backbone: 'public/vendor/backbone/backbone-min',
+    bootstrap: 'public/vendor/bootstrap/dist/js/bootstrap.min',
+    colorpicker: 'public/vendor/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min',
+    d3: 'public/vendor/d3/d3.v2.min',
+    jquery: 'public/vendor/jquery/dist/jquery.min',
+    underscore: 'public/vendor/underscore/underscore-min',
 
     forceView: 'force-view',
     myView: 'my-backbone-view',
     myModel: 'my-backbone-model',
     dbaas: 'dbaas',
-    io: '/socket.io/socket.io'
   },
   shim: {
     bootstrap: {

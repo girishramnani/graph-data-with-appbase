@@ -1,5 +1,5 @@
 {
-  "name": "pubsub-with-backbone-events",
+  "name": "pubsub-with-backbone-events-using-appbase",
   "version": "0.0.1",
   "homepage": "https://github.com/igorlima/pubsub-with-backbone-events",
   "authors": [
@@ -12,14 +12,15 @@
     "jquery": "~2.1.4",
     "requirejs-bower": "~2.1.19",
     "underscore": "~1.8.3",
-    "xaguilars-bootstrap-colorpicker": "~2.2.0"
+    "bootstrap-colorpicker": "~2.2.0",
+    "appbase-js": "^0.10.8"
   },
   "license": "MIT",
   "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
+    "public/vendor",
     "test",
     "tests"
   ]
